@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav {
+	background-color:#FC9E20 ;
+	height: 80px;}
+nav h1{
+	position: absolute;	
+	text-transform: uppercase;
+	line-height: 80px;
+	margin-left: 40px;
+}
+nav ul {
+float: right;
+margin-right: 40px;
+}
+nav ul li{
+	line-height: 80px;
+    display: inline;
+    margin-right: 40px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+}
+nav a:hover{
+	color:red;
+}
+.active{
+	color: lightgreen;
+}
+.home{
+	background-image: url(img/about.jpg);
+	height: 80vh;
+	background-size: 100% 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+.home h1{
+   padding-top: 15%;
+   color: white;
+   font-size: 3.5rem;
+}
+.home h1 span{
+	font-size: 2.5rem;
+	text-decoration: underline blue;	
+}
+.about img{
+      height: 400px;
+      width: 500px;
+      float: left;
+      padding: 20px;
+}
+.about p{
+      text-align: justify;
+      padding: 20px;
+      line-height: 30px;
+      height: 400px;
+}
+
+.title {
+	text-align: center;
+	text-decoration: underline red;
+	font-size: 2rem;
+	padding: 20px;
+
+}
+.tell{
+	position: absolute;
+}
+
+section {
+	padding: 30px;
+}
+.services {
+	display: flex;
+	padding: 20px;
+
+}
+.service1{
+	width: 400px;
+	height: auto;
+	border: 2px solid;
+	padding: 20px;
+	margin: 20px;
+
+}
+.service1 img{
+    height:auto;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.service1 h2 {
+	text-align: center;
+	padding: 10px;
+}
+.service1 h2 a{
+	text-decoration: none;
+	color: black;
+}
+.service1 h2 a:hover{
+	color: red;
+}
+.service1 p{
+	text-align: justify;
+	padding: 10px;
+}
+.products{
+     margin-left: 30px;
+     
+}
+.product1{
+	
+	display:inline-block;
+	width: 350px;
+	border: 2px solid;
+	height: auto;
+	margin: 40px;
+	padding: 10px;
+
+}
+.product1 img {
+	height: 300px;
+	width: 100%;
+}
+.product1 h2{
+	text-align: center;
+}
+.product1 p{
+	text-align: center;
+}
+
+
+.contact{
+	display: flex;
+	margin: 40px;
+	height: auto;
+}
+.contact div{
+	max-width: 600px;
+	margin: 20px;
+}
+footer{
+	background-color: #FC9E20;
+	margin-bottom: -50px;
+	
+}
+.about-c{
+	padding: 10px;
+}
+.address ul li{
+   list-style: none;
+   line-height: 30px;
+}
+
+body{
+	background-color: lightblue;
+}
